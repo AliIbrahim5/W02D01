@@ -178,37 +178,75 @@ Array
 // updateValue([1, 2, 3], 0, 10); // => [10, 2, 3]
 // updateValue([1, 2, 3], 1, 10); // => [1, 10, 3]
 
-//4
-
 
 //5
 
-const onlyString = function (array) {
-    let x
-    let array1 = [];
-    for (let i = 0; i < array.length; i++){
 
-        if (typeof array[i] === "string") {
-             x = array[i]
-
-
-
-
-        } else {
-
-
-        }
-
-    }
-    return x
-
-
-
-};
-
-console.log(onlyString(["one", 12, "hi", true, 88, "12"]))
-onlyString(["one", 12, "hi", true, 88, "12"]); // => ["one","hi","12"]
-onlyString([10, 20, 30, 40, 50, 60, false]); // => []
+//
+// const onlyString = function (array) {
+//     let x =
+//
+//         array1 = [];
+//
+//     for (let i = 0; i < array.length; i++) {
+//
+//         if (typeof array[i] === "string") {
+//             array1.push(array[i]);
+//
+//
+//         }
+//
+//
+//     }
+//     return array1
+//
+// };
+//
+// console.log(onlyString(["one", 12, "hi", true, 88, "12"]))
+// onlyString(["one", 12, "hi", true, 88, "12"]); // => ["one","hi","12"]
+// onlyString([10, 20, 30, 40, 50, 60, false]); // => []
 
 
+//6
+//
 
+//
+// //7
+//
+// const maximumNumber = function (numbers) {
+//    return Math.max(...numbers)
+// };
+//
+// console.log(maximumNumber([0, 5, 2, 10, 8, 6]));
+// maximumNumber([0, 5, 2, 10, 8, 6]); // => 10
+// maximumNumber([0, 5, 6]); // => 6
+
+
+//8
+// const reversString = function (string) {
+//
+//      for (let i =0 ; i<string.length;i++){
+//       return  (string.split('').reverse())
+//
+//         }
+//
+//
+//};
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// console.log(reversString("Hello"))
+//
+// reversString("Hello"); // => "olleH"
+// reversString("John"); // => "nhoJ"
+
+// the end
