@@ -164,16 +164,23 @@ Array
 // console.log(addToArray(['red','blue','black']))
 
 //3
-//
-// // the array values are unique, no duplicate values in the array
+
+// the array values are unique, no duplicate values in the array
 // const updateValue = function (array,index,value) {
-//
-//     let num = [];
-//     return num.splice([])
-//
-//
+
+//     for (let i = 0; i<array.length;){
+//         if (array.length <= index){
+//             return "there is no element to updated in this index"
+//         }else {
+
+//             array[i]=value;
+//             return  array
+//         }
+
+//     }
+
 // }
-//
+// console.log(updateValue([1, 2, 3], 1, 10))
 // updateValue([10, 20, 30], 3, 50); // => "there is no element to updated in this index"
 // updateValue([1, 2, 3], 0, 10); // => [10, 2, 3]
 // updateValue([1, 2, 3], 1, 10); // => [1, 10, 3]
